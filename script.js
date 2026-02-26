@@ -1,15 +1,35 @@
-var tl = gsap.timeline();
+var tl = gsap.timeline({
+    repeat: -1,
+    yoyo: true,
+});
+tl.from("#page1 #box1",{
+    opacity:0,
+    duration: 1,
+    rotate: 360,
+})
+tl.from("#page1 #box2",{
+    opacity:0,
+    duration: 1,
+    rotate: 360,
+})
+tl.from("#page1 #box3",{
+    opacity:0,
+    duration: 1,
+    rotate: 360,
+})
+tl.from("#page1 #box4",{
+    opacity:0,
+    duration: 1,
+    rotate: 360,
+})
+tl.from("#page1 #box5",{
+    opacity:0,
+    duration: 1,
+    rotate: 360,
+})
+tl.from("#page1 #box6 h1",{
 
-tl.from("h2", {
-    opacity: 0,
-    y: -20,
+    opacity:0,
     duration: 1,
-    delay: 0.5,
-});
-tl.from("h4", {
-    opacity: 0,
-    y: -20,
-    duration: 1,
-    delay: 0.5,
-    stagger: 0.2,
-});
+    rotate: 360,
+})
