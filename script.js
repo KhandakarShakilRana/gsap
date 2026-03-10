@@ -1,3 +1,6 @@
-document.querySelector("button").addEventListener("click",()=>{
-    window.location.assign("./project 1/index.html")
-})
+const page = (id) =>{
+    document.querySelector("button")
+        console.log(id);
+        window.location.assign(`./${id}/index.html`)
+
+}

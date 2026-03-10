@@ -21,7 +21,8 @@ function animateText(text){
         y:50,
         opacity:0,
         duration:0.6,
-        stagger:0.15
+        stagger:0.15,
+        
     })
 
     gsap.from("h1 .b",{
